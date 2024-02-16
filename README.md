@@ -1,2 +1,6 @@
 # JasperMeersschaut.github.io
-personal Website
+
+Personal Website, a little side project.
+---
+### TODO
+- Header
