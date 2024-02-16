@@ -1,13 +1,37 @@
-@import url('fonts.css');
+@import url("fonts.css");
 
 // ============================================================ //
 // Colours //
 // ============================================================ //
 
-$primary: #F03838;
+$primary: #f03838;
 $secondary: #303030;
-$background: #FEFEFE;
+$background: #fefefe;
 
 /* ============================================================ */
 /* Base */
 /* ============================================================ */
+html,
+body {
+  height: 100%;
+}
+body {
+  background: $background;
+  color: #424242;
+  font-family: "Proxima Nova Thin", arial, sans-serif;
+  font-size: 18px;
+}
+td{
+    background-color: $primary;
+    &:hover{
+background-color: $secondary;
+    }
+}
+/* ============================================================ */
+/* General Appearance */
+/* ============================================================ */
+#wrapper {
+  height: auto;
+  min-height: 100%;
+  margin-bottom: -265px;
+}
